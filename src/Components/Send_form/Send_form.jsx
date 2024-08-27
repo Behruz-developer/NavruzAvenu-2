@@ -50,7 +50,6 @@ const Send_form = () => {
 
     const formattedTel = formData.tel.replace(/\D/g, ''); // Faqat raqamlar
 
-    // Inputlarning to'ldirilganligini va telefon raqamining kamida 9 ta raqamdan iboratligini tekshirish
     if (!formData.name || formattedTel.length < 9) {
       alert("Iltimos, barcha maydonlarni to'ldiring va telefon raqamingiz to'g'ri ekanligini tekshiring.");
       return;

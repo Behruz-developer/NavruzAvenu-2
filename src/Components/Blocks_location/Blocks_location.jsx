@@ -61,7 +61,7 @@ const Blocks_location = () => {
 
 
                 </div>
-                Yevropa fasad <br /> materiallari
+                Yevropa fasad  materiallari
               </div>
               <div className="blocks_location_icon_text">
                 <div className="blocks_location_svg_box">

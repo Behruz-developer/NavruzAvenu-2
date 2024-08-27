@@ -1,4 +1,5 @@
 import universal from "../../assets/images/about1.png";
+import location from "../../assets/images/location.svg";
 
 import AOS from 'aos'
 import 'aos/dist/aos.css';
@@ -169,20 +170,7 @@ const About = () => {
               </div>
               <div className="about_icon_text">
                 <div className="about_icon_text_card">
-                  <svg className="about_icon_text_img" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <mask id="mask0_2045_3034" style={{ maskType: 'alpha' }} maskUnits="userSpaceOnUse" x="7" y="8" width="65" height="64">
-                      <rect x="7" y="6.6" width="65" height="64" fill="url(#pattern0_2045_3034)" />
-                    </mask>
-                    <g mask="url(#mask0_2045_3034)">
-                      <rect x="2" y="-4" width="76" height="88" fill="#000" />
-                    </g>
-                    <defs>
-                      <pattern id="pattern0_2045_3034" patternContentUnits="objectBoundingBox" width="1" height="1">
-                        <use href="#image0_2045_3034" transform="scale(0.0153846 0.015200)" />
-                      </pattern>
-                      <image id="image0_2045_3034" width="65" height="64" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABACAMAAAByderSAAAAtFBMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////oK74hAAAAO3RSTlMAM7tl/AR2iAjoqpsL8V3Uow/tIjQdGNwt80MV2JGEcVD1TEjitX9sWVM4JZg8KhL3w7/Oy8dojkDPqe2tUEYAAAOYSURBVFjDpZbrWuIwFEVDL9haSqEg0IIiV0cRwVFQZ73/e80YaXojRZn1K/3OadKcnL0boadjertRaPnus2d2xI9pjz/I8jJu/Oz9mwjoe+Ppuraejr0RcCN+wL0L8+Uqu6Pl77X4Ns41uGNHnE3vFVptcT69EVFTGzVehydrGBA+aKO2y+7UmVwSdSvCXZ9LUYkJt9nnxmCQT7gFs7IIPm+Z18evFtTzKW/4PaHHo5+eYjMELHdaOOs+ntByZXGviuaBu+zaQrK5t1W7YV0JHRcEatyCayfz1FLjgAuhY55WaQz7bJ/DXVpt19ZM8M62rUpaWOiGMIm1t7xrZlhipC/MnWIBl6ox1bCIQT3d67gQ3Kc1qmNoyzBLNgFXxXOCpA9mzDWqhqfD8AG/FPZJ9LICJQ7dKlNGpfBI9XsbjnfEEySnFOOWwq7ao4DVcVHAMP3OTSG6Sfc4hOPSsC0G6YK/it5JmAwHWOI4I5qpxJ4LwWceleQYaZXZUjWxDrOlb1lPqUg8nckTqoa/Jurmvela7TbkVmfzmZDzgn+fOpPPR0M9EGp/BY8s1Hj4AYvY/lwzXkCQevSCR72PwiD1OA/wX4ydD3hpEw6gwot/08pOeBnxyfYy6/8tfgs9M6xOrjLvzbr5nhNBx2ImKnjlj6jmD6+V8VhtUl+qWFSy4Lky/sxCVDOwpCJ0/MIaiBNc47a1wbabtuZZSfrpixrS/f4flN6qMQjs4wYSYIjv0Ik097Ybom/eK++w1qLM2kr/fKf30S/beaOv9nCaXqgUllVU2BPf5haamvuRnmGz/sV4JQ9+8pT/mUxkm6zGh6xm6VY4jTgghWG/EDSyRQh4saWBJETT0hWsbxyQulj5POb8z19JXSRJc6JewehHTkFD2VI0KerNGeEVFHlbtt1J7TCsTcrmOs2r1DjiffaO+fCryHN29hFPNXL2WJMtA4Smug24GNLtDdwrdaghIBuuljFMO5ANtAmRGEn6eitvuG9pk18ZSMKNbDGlwD0T+VK7848LCz9WAsEUJkoOsY918ZnUltNN2CtPyWrxIWApnJY8sy0EsJXjliOWjB5yWnXbyaCRO6jYEQPKDIQdOzmtyaXlx5iixNQsMi0nmXL7h4I49YsD9YbQ00jTnOQIujCTLahoVploPm0GXbH4aoyNd3nAG1YpOE3bfLXiQkTE4nxiJqKP162dS9ejL+74H2S37fucT/9O/AWw+Z55pWtuZwAAAABJRU5ErkJggg==" />
-                    </defs>
-                  </svg>
+                  <img src={location} alt="" className="about_icon_text_img" />
                 </div>
                 Qulay <br /> joylashuv
               </div>

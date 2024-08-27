@@ -128,9 +128,13 @@
         @include media(1600px) {
             width: 85%;
         }
-
+        @include media (1150px) {
+            padding-bottom: 70px;
+        }
         @include media (850px) {
             grid-row: span 3;
+            padding-bottom: 0px;
+
         }
 
         @include media(650px) {

@@ -10,15 +10,18 @@
     @include media (650px) {
         padding-bottom: 65px;
     }
-    @include media (550px) {
-        padding-bottom: 115px;
-    }
-    @include media (450px) {
-        padding-bottom: 113px;
-    }
-    @include media (400px) {
-        padding-bottom: 143px;
-    }
+
+    // @include media (550px) {
+    //     padding-bottom: 115px;
+    // }
+
+    // @include media (450px) {
+    //     padding-bottom: 113px;
+    // }
+
+    // @include media (400px) {
+    //     padding-bottom: 143px;
+    // }
 
 
     &_box {
@@ -28,7 +31,14 @@
         justify-content: space-between;
         gap: 24px;
         width: 100%;
+        padding-bottom: 30px;
 
+        @include media(1200px) {
+            padding-bottom: 30px;
+        }
+        @include media(800px) {
+            padding-bottom: 0px;
+        }
         @include media(650px) {
             display: flex;
             flex-direction: column;
@@ -121,10 +131,11 @@
         // @include media (1100px) {
         //     flex-wrap: wrap;
         // }
-        @include media (800px){
+        @include media (800px) {
             row-gap: 40px;
         }
-        @include media (600px){
+
+        @include media (600px) {
             row-gap: 30px;
         }
     }
@@ -291,15 +302,18 @@
             box-shadow: 0px 6px 8px 0px #0000001a;
             bottom: -55px;
         }
-        @include media(550px) {
-            bottom: -105px;
-        }
-        @include media(450px) {
-            bottom: -105px;
-        }
-        @include media(400px) {
-            bottom: -135px;
-        }
+
+        // @include media(550px) {
+        //     bottom: -105px;
+        // }
+
+        // @include media(450px) {
+        //     bottom: -105px;
+        // }
+
+        // @include media(400px) {
+        //     bottom: -135px;
+        // }
 
         &_box {
             width: 50px;
@@ -351,10 +365,12 @@
                 font-size: 16px;
                 line-height: 24px;
             }
+
             @include media(1000px) {
                 font-size: 14px;
                 line-height: 22px;
             }
+
             @include media(850px) {
                 font-size: 12px;
                 line-height: 16px;
