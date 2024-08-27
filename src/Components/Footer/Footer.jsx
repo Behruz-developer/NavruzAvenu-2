@@ -14,7 +14,7 @@ const Footer = () => {
       <div className="footer_box">
         <div className="footer_card2">
           <div className="map_box" >
-            <iframe className="map_container" src="https://yandex.com/map-widget/v1/?um=constructor%3Ae540334f72dcb49c54a87e32190555e4d178f559ae3fe7f67b6435d1904e5054&amp;source=constructor" width="576" height="480" frameborder="0"></iframe>
+            <iframe className="map_container" src="https://yandex.com/map-widget/v1/?um=constructor%3A40dcab2051e75669b535c6289acb8f7e513d5dba1dc1581daeb27820963256aa&amp;source=constructor" width="599" height="450" frameborder="0"></iframe>
           </div>
         </div>
         <div className="footer_card1">
