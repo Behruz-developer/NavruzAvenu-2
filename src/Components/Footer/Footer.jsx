@@ -39,7 +39,7 @@ const Footer = () => {
               <p className="footer_location_text">
                 Jizzax viloyati Jizzax shahri
                 <br />
-                Sharof Rashidov koʻchasi 115-uy
+                Oʻzbekiston koʻchasi 100-uy
               </p>
             </div>
             <div className="footer_social">
