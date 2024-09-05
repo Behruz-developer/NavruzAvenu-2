@@ -138,7 +138,7 @@ const About = () => {
                     <path d="M32.9998 17.5938C33.8198 17.5938 34.4898 18.2638 34.4898 19.0838C34.4898 19.9038 33.8198 20.5738 32.9998 20.5738C32.1798 20.5738 31.5098 19.9038 31.5098 19.0838C31.5098 18.2638 32.1798 17.5938 32.9998 17.5938Z" stroke="#000" stroke-width="1.1999" stroke-miterlimit="22.9256" stroke-linecap="round" />
                   </svg>
                 </div>
-                24/7 Qo'riqlash va videkuzatuv
+                24/7 Qo'riqlash va video kuzatuv
               </div>
               <div className="about_icon_text">
                 <div className="about_icon_text_card" >
