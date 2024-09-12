@@ -14,7 +14,7 @@ const Send_form = () => {
     const chat_id = "-1002243571873"; 
     const url = `https://api.telegram.org/bot${token}/sendMessage`;
 
-    const message = `#ZaminUrgut\n Ism: ${data.name}\nTel: ${data.tel}`;
+    const message = `#NavruzAvenue\n Ism: ${data.name}\nTel: ${data.tel}`;
 
     try {
       const response = await fetch(url, {
