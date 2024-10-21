@@ -1,5 +1,5 @@
 import logo from "../../assets/images/logo.svg";
-import logo2 from "../../assets/images/logoo.svg";
+import logo2 from "../../assets/images/logo.svg";
 import { PiPhoneCallLight } from "react-icons/pi";
 import { RxDownload } from "react-icons/rx";
 import { IoMenu } from "react-icons/io5";

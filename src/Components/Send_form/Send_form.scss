@@ -1,7 +1,3 @@
-:root {
-    --gr-1: #01512e;
-    --gr-2: #D4E2E0;
-}
 
 .form {
     margin-bottom: 90px;
@@ -50,7 +46,7 @@
     &_card_right {
         width: 55%;
         background: var(--gr-1);
-        color: black;
+        color: white;
         border-radius: 16px 0px 0px 16px;
 
         @include media (1200px) {
@@ -167,7 +163,7 @@
         display: flex;
         align-items: center;
         column-gap: 8px;
-        color: #000;
+        color: #fff;
 
         &_container {
             border-radius: 8px;
